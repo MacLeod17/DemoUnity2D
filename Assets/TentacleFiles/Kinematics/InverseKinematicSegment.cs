@@ -13,7 +13,6 @@ public class InverseKinematicSegment : KinematicSegment
 	public void Follow(Vector2 target)
 	{
 		Vector2 direction = target - start;
-		
 		Coordinate.Polar polar = Coordinate.CartesianToPolar(direction);
 		angle = polar.angle;
 

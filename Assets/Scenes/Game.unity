@@ -8154,6 +8154,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ea5af851cc051943acd37973820387f, type: 3}
+--- !u!1001 &4274899765735838219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4274899766302647750, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274899766302647750, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274899766302647750, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274899766302647750, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274899766302647750, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274899766302647750, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274899766302647750, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274899766302647750, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274899766302647750, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274899766302647750, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274899766302647750, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274899766302647751, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: m_Name
+      value: Tentacular
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
 --- !u!1001 &4431050363145691842
 PrefabInstance:
   m_ObjectHideFlags: 0
