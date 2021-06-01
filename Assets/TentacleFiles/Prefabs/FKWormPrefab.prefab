@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5870848431466204231}
   - component: {fileID: 5870848431466204230}
+  - component: {fileID: 61360815226278150}
+  - component: {fileID: 8766858686740085993}
   m_Layer: 0
   m_Name: FKWormPrefab
   m_TagString: Untagged
@@ -47,4 +49,41 @@ MonoBehaviour:
   count: 5
   length: 0.75
   width: 1.5
+  taper: 10
   noiseRate: 1
+  tentaculus: {fileID: 61360815226278150}
+--- !u!114 &61360815226278150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5870848431466204249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb3e806803f6844b81792d468fa96c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_speed: 4.2
+  attackLayers:
+  - serializedVersion: 2
+    m_Bits: 64
+  attackPoint: {fileID: 0}
+  attackRange: 0.5
+  attackDamage: 40
+  attackRate: 2
+  moveRate: 2
+--- !u!114 &8766858686740085993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5870848431466204249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92626c7f14d2bb347a2b71d58ac97647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
