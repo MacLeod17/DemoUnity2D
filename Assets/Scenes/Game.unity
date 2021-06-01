@@ -8217,9 +8217,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tentacular
       objectReference: {fileID: 0}
+    - target: {fileID: 4290384419899779628, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: attackRate
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290384421528594740, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: attackRate
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290384421630433945, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: attackRate
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290384421631376517, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: attackRate
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7706767739964341371, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
       propertyPath: moveRate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7706767739964341371, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+      propertyPath: attackRate
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
