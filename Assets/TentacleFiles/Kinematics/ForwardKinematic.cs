@@ -10,6 +10,7 @@ public class ForwardKinematic : MonoBehaviour
 	[Range(0.0f, 10.0f)] public float width = 1;
 	[Range(0.0f, 20.0f)] public float taper = 10;
 	[Range(0.0f, 10.0f)] public float noiseRate = 1;
+	public Tentaculus tentaculus;
 
 	List<ForwardKinematicSegment> segments = new List<ForwardKinematicSegment>();
 
@@ -25,6 +26,7 @@ public class ForwardKinematic : MonoBehaviour
 			ForwardKinematicSegment segment = Instantiate(segmentOriginal, transform);
 			segment.Initialize(parent, position, angle, (length - (i/taper)), (width - (i/taper)));
 			segments.Add(segment);
+			if (i == count-1) tentaculus.attackPoint = segment.transform;
 
 			parent = segment;
 		}
