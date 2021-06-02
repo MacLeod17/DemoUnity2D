@@ -5,36 +5,21 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public TMP_Text healthText;
-    public GameObject winScreen;
-
     public float m_speed = 4.0f;
     public float m_jumpForce = 7.5f;
+
+    public Animator m_animator;
+    public Rigidbody2D m_body2d;
+    public Sensor_Bandit m_groundSensor;
+    public Health m_health;
 
     public bool m_grounded { get; set; } = false;
     public bool m_combatIdle { get; set; } = false;
     public bool m_isDead { get; set; } = false;
 
-    Animator m_animator;
-    Rigidbody2D m_body2d;
-    Sensor_Bandit m_groundSensor;
-    Health m_health;
-
-    // Use this for initialization
-    void Start()
-    {
-        m_animator = GetComponent<Animator>();
-        m_body2d = GetComponent<Rigidbody2D>();
-        m_groundSensor = transform.Find("GroundSensor").GetComponent<Sensor_Bandit>();
-        m_health = GetComponent<Health>();
-    }
-
     // Update is called once per frame
     void Update()
     {
-        //Update Health UI
-        healthText.text = $"Health: {m_health.currentHealth} / {m_health.maxHealth}";
-
         //Check if character just landed on the ground
         if (!m_grounded && m_groundSensor.State())
         {
@@ -97,8 +82,8 @@ public class Player : MonoBehaviour
     {
         if (collision.tag.Equals("Finish"))
         {
-            winScreen.SetActive(true);
-            Time.timeScale = 0;
+            //winScreen.SetActive(true);
+            //Time.timeScale = 0;
         }
     }
 }
