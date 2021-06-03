@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 5870848431466204230}
   - component: {fileID: 61360815226278150}
   - component: {fileID: 8766858686740085993}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FKWormPrefab
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

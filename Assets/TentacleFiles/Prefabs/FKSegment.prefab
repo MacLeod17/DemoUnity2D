@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 6053719915716167037}
   - component: {fileID: 3974889996379945907}
   - component: {fileID: 8853483951052723372}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FKSegment
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,4 +113,4 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.25
+  m_Radius: 0.26

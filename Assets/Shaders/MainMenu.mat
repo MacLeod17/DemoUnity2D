@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WaterFront
+  m_Name: MainMenu
   m_Shader: {fileID: -6465566751694194690, guid: e15992913d45c5348b74846fc738e3ba, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -101,10 +101,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_1: 1
+    - Vector1_1: 2
     - Vector1_2: 1
     - Vector1_8db4c7c87983419db334896903fd7fb9: 2
-    - Vector1_8f86902b6caf47db8a08b57d53dfee62: 0.45
+    - Vector1_8f86902b6caf47db8a08b57d53dfee62: 0.6
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -132,7 +132,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_b778c7d192e7449a803db9a4306d3c30: {r: 0, g: 0, b: 1, a: 1}
+    - Color_b778c7d192e7449a803db9a4306d3c30: {r: 0.49019608, g: 0, b: 1, a: 0}
     - Color_fa14c86300f64703abd5ad07e552657a: {r: 0, g: 0.06666667, b: 1, a: 0}
     - Vector2_904a2b5f00a64ca597ac461b6b22039a: {r: 0.01, g: 0.01, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
