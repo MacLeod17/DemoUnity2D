@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
         currentHealth -= damage;
 
         // Play Hurt Animation
-        animator.SetTrigger("Hurt");
+        if (animator != null) animator.SetTrigger("Hurt");
         AudioManager.Instance.PlayAudio(1);
 
         if (currentHealth <= 0.0f)

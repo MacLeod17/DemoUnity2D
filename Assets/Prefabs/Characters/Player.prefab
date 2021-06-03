@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 499626853367788582}
   m_Layer: 6
   m_Name: GroundSensor
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,9 +122,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0255a7725c8be47aa88f4baac20e35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthText: {fileID: 0}
   m_speed: 4
   m_jumpForce: 7.5
+  m_animator: {fileID: 0}
+  m_body2d: {fileID: 0}
+  m_groundSensor: {fileID: 0}
+  m_health: {fileID: 0}
 --- !u!114 &4050095798183790651
 MonoBehaviour:
   m_ObjectHideFlags: 0

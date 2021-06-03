@@ -65,11 +65,8 @@ public class GameSession : MonoBehaviour
             case eState.Load:
                 Score = 0;
                 if (highScoreUI != null) highScoreUI.text = string.Format("{0:D4}", HighScore);
-                if (playChar == null)
-                {
-                    playChar = GameObject.FindGameObjectWithTag("Player");
-                    player = playChar.GetComponent<Player>();
-                }
+                playChar = GameObject.FindGameObjectWithTag("Player");
+                player = playChar.GetComponent<Player>();
                 State = eState.StartSession;
                 break;
             case eState.StartSession:

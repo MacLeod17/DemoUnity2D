@@ -1740,6 +1740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeavyBandit (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 57217217656631294, guid: 3248535f6a2562c489a1223a75951ef2, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 62938150006542706, guid: 3248535f6a2562c489a1223a75951ef2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2147,6 +2151,10 @@ PrefabInstance:
     - target: {fileID: 57111416037977648, guid: 3248535f6a2562c489a1223a75951ef2, type: 3}
       propertyPath: m_Name
       value: HeavyBandit (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 57217217656631294, guid: 3248535f6a2562c489a1223a75951ef2, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 62938150006542706, guid: 3248535f6a2562c489a1223a75951ef2, type: 3}
       propertyPath: m_RootOrder
@@ -3483,6 +3491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeavyBandit
       objectReference: {fileID: 0}
+    - target: {fileID: 57217217656631294, guid: 3248535f6a2562c489a1223a75951ef2, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 62938150006542706, guid: 3248535f6a2562c489a1223a75951ef2, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3551,6 +3563,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 677885387}
     m_Modifications:
+    - target: {fileID: 5131945930104969304, guid: 62ab8fb1f6255864188be25d0dc73cc1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5131945930912319270, guid: 62ab8fb1f6255864188be25d0dc73cc1, type: 3}
       propertyPath: m_Name
       value: LightBandit (1)
@@ -3613,6 +3629,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 677885387}
     m_Modifications:
+    - target: {fileID: 5131945930104969304, guid: 62ab8fb1f6255864188be25d0dc73cc1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5131945930912319270, guid: 62ab8fb1f6255864188be25d0dc73cc1, type: 3}
       propertyPath: m_Name
       value: LightBandit
@@ -3730,6 +3750,10 @@ PrefabInstance:
     - target: {fileID: 442524264117463184, guid: d6b0c28570a0e394696aa61f2f29f0b2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446127192401122844, guid: d6b0c28570a0e394696aa61f2f29f0b2, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 446232494993545170, guid: d6b0c28570a0e394696aa61f2f29f0b2, type: 3}
       propertyPath: m_Name
