@@ -58,7 +58,14 @@ public class PlayerCombat : MonoBehaviour
             //Damage Them
             foreach (var enemy in hitEnemies)
             {
-                enemy.GetComponent<Health>().TakeDamage(attackDamage);
+                if(enemy.GetComponent<Health>() != null)
+                {
+                    enemy.GetComponent<Health>().TakeDamage(attackDamage);
+                }
+                else
+                {
+                    enemy.GetComponentInParent<Health>().TakeDamage(attackDamage);
+                }
             }
         }
     }

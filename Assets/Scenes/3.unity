@@ -2169,7 +2169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4274899767529611556, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Tentacular
       objectReference: {fileID: 0}
     - target: {fileID: 4290384419899779628, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
       propertyPath: attackRate
@@ -2229,31 +2229,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7649943663337551731, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Tentacular
       objectReference: {fileID: 0}
     - target: {fileID: 7649943663438222898, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Tentacular
       objectReference: {fileID: 0}
     - target: {fileID: 7649943664086807941, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Tentacular
       objectReference: {fileID: 0}
     - target: {fileID: 7649943664136535678, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Tentacular
       objectReference: {fileID: 0}
     - target: {fileID: 7649943664799893446, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Tentacular
       objectReference: {fileID: 0}
     - target: {fileID: 7649943664800965082, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Tentacular
       objectReference: {fileID: 0}
     - target: {fileID: 7649943664966759531, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Tentacular
       objectReference: {fileID: 0}
     - target: {fileID: 7706767739964341371, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
       propertyPath: moveRate
@@ -2267,8 +2267,7 @@ PrefabInstance:
       propertyPath: attackRange
       value: 0.5
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4825990965946689154, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9813049d2f0f15648b4b69050368a91e, type: 3}
 --- !u!4 &721005218 stripped
 Transform:
@@ -2296,20 +2295,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.45
---- !u!114 &721005221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721005219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92626c7f14d2bb347a2b71d58ac97647, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 500
-  currentHealth: 0
 --- !u!1001 &741192085
 PrefabInstance:
   m_ObjectHideFlags: 0

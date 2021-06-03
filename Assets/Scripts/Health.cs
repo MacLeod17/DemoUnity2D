@@ -34,7 +34,7 @@ public class Health : MonoBehaviour
         Debug.Log($"{name} Died!");
 
         //Die Animation
-        animator.SetTrigger("Death");
+        if (animator != null) animator.SetTrigger("Death");
 
         //Disable Character
         if (gameObject.tag.Equals("Player"))
@@ -45,6 +45,12 @@ public class Health : MonoBehaviour
         {
             GetComponent<Enemy>().enabled = false;
             GetComponent<Collider2D>().enabled = false;
+        }        
+        else if (gameObject.tag.Equals("Tentacular"))
+        {
+            GetComponent<Tentaculus>().enabled = false;
+            GetComponent<ForwardKinematic>().enabled = false;
+            this.gameObject.SetActive(false);
         }
         else
         {
