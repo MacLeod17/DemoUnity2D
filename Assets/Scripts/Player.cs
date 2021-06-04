@@ -80,10 +80,16 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag.Equals("Finish"))
+        //if (collision.CompareTag("Finish"))
         {
             //winScreen.SetActive(true);
             //Time.timeScale = 0;
+            //return;
+        }
+        if (collision.CompareTag("DeathZone"))
+        {
+            m_health.Die();
+            return;
         }
     }
 }
