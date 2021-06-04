@@ -18,9 +18,10 @@ public class GameSession : MonoBehaviour
     public GameObject gameOverScreen;
     public GameObject winGameScreen;
 
+   public bool gameWon = false;
+
     GameObject playChar;
     Player player;
-    bool gameWon = false;
 
     static GameSession instance = null;
     public static GameSession Instance

@@ -51,6 +51,14 @@ public class Health : MonoBehaviour
             GetComponent<Tentaculus>().enabled = false;
             GetComponent<ForwardKinematic>().enabled = false;
             this.gameObject.SetActive(false);
+        }        
+        else if (gameObject.tag.Equals("Boss"))
+        {
+            GetComponent<CircleCollider2D>().enabled = false;
+            this.gameObject.SetActive(false);
+            GameSession.Instance.gameWon = true;
+            GameSession.Instance.State = GameSession.eState.EndSession;
+
         }
         else
         {
