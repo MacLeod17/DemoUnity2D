@@ -11,9 +11,10 @@ public class Tentaculus : MonoBehaviour
 
     public float attackRange = 0.5f;
     public float attackDamage = 40.0f;
-    public float attackRate = 2f;
+    public Vector2 attackRate = new Vector2(1, 10);
     public float moveRate = 2f;
 
+    float currentAttackRate = 2f;
     float attackCounter = 0f;
     float moveCounter = 0f;
 
@@ -23,6 +24,7 @@ public class Tentaculus : MonoBehaviour
     {
         body2d = GetComponentInParent<Rigidbody2D>();
 
+        currentAttackRate = Random.Range(attackRate.x, attackRate.y);
         moveCounter = moveRate;
     }
 
@@ -36,7 +38,6 @@ public class Tentaculus : MonoBehaviour
         if (attackCounter <= 0)
         {
             Attack();
-            attackCounter = attackRate;
         }
 
         if (moveCounter <= 0)
@@ -58,7 +59,9 @@ public class Tentaculus : MonoBehaviour
             //Damage Them
             foreach (var player in hitEnemies)
             {
-                player.GetComponent<Health>().TakeDamage(attackDamage);
+                player.gameObject.GetComponent<Health>().TakeDamage(attackDamage);
+                currentAttackRate = Random.Range(attackRate.x, attackRate.y);
+                attackCounter = currentAttackRate;
             }
         }
     }
